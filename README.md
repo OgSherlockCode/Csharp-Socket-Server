@@ -1,7 +1,7 @@
 # Csharp-Socket-Server
 This socket server receives packets regardless of their size.
 
-use:
+use:```
 class Program
     {
         static NetworkComponent server = new NetworkComponent();
@@ -17,3 +17,4 @@ class Program
             Console.WriteLine(Encoding.ASCII.GetString(buf, 0, buf.Length));
         }
     }
+```
