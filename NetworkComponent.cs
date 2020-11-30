@@ -9,7 +9,7 @@ namespace EasyNetworking
     {
         public event EventHandler<Socket> Connected;
 
-        public void StartServer(string ip = "localhost", int port = 5000, ProtocolType protocolType = ProtocolType.Tcp)
+        public void StartServer(string ip = "127.0.0.1", int port = 5000, ProtocolType protocolType = ProtocolType.Tcp)
         {
             IPAddress ipAddress = IPAddress.Parse(ip);
             IPEndPoint localEndPoint = new IPEndPoint(ipAddress, port);
