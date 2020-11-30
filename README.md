@@ -1,7 +1,8 @@
 # Csharp-Socket-Server
 This socket server receives packets regardless of their size.
 
-use:```
+use:
+```
 class Program
     {
         static NetworkComponent server = new NetworkComponent();
